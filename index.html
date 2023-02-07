@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <!--heading-->
+    <nav class="navbar navbar-light bg-info">
+      <span class="navbar-text mb-0 h1 center-text" style="text-align: center;">Weather Dashboard</span>
+    </nav> 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mx-2 pt-3">
+          <strong>Search for a City:</strong>
+          <div class="row">
+            <div class="input-group mb-3 pt-3">
+              <input type="text" class="form-control w-100" id="city-input" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+              <div class="input-group-append">
+                <button class="btn btn-info" type="button" id="search-button">Search</button>
+              </div>
+            </div>
+          </div>
+          <div id="city-buttons"></div>
+        </div>
+        <div class="weather-box" id="weather-data">
+          <!-- Weather data will be displayed here -->
+        </div>
+      </div>
+    </div>
+    
+      
+    
+
+
+      
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
